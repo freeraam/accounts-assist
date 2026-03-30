@@ -1,0 +1,18 @@
+{
+  "name": "accounting-automation-tool",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "python3 -m pip install -r requirements.txt && streamlit run app.py --server.port 3000 --server.address 0.0.0.0",
+    "build": "echo 'No build step needed for Python'",
+    "preview": "streamlit run app.py --server.port 3000 --server.address 0.0.0.0",
+    "clean": "rm -rf dist",
+    "lint": "echo 'No lint step needed for Python'"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0"
+  }
+}

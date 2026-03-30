@@ -1,0 +1,5 @@
+{
+  "name": "Accounting Automation Tool",
+  "description": "Local-first accounting automation prototype using Gemini AI and Streamlit.",
+  "requestFramePermissions": []
+}
